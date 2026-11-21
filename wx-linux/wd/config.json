@@ -1,0 +1,6 @@
+{
+  "db_dir": "/path/to/your/wechat/data",
+  "keys_file": "REPLACE_WITH_YOUR_API_KEY",
+  "decrypted_dir": "/path/to/your/wechat/data",
+  "wechat_process": "WeChat"
+}

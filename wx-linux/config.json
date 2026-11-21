@@ -1,0 +1,26 @@
+{
+  "target_chat": "REPLACE_WITH_YOUR_GROUP",
+  "persona": "在这里填写机器人的人设/回复风格提示词",
+  "llm": {
+    "base_url": "https://api.example.com/v1",
+    "api_key": "REPLACE_WITH_YOUR_API_KEY",
+    "model": "deepseek-chat",
+    "judge_model": "deepseek-chat",
+    "temperature": 1.1,
+    "max_tokens": 120
+  },
+  "behavior": {
+    "poll_seconds": 12,
+    "context_size": 10,
+    "reply_cooldown_seconds": 120,
+    "max_per_hour": 6,
+    "quiet_hours": [
+      1,
+      8
+    ],
+    "max_reply_chars": 50
+  },
+  "safety": {
+    "dry_run": true
+  }
+}

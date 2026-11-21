@@ -1,0 +1,12 @@
+[Unit]
+Description=WeChat bot health panel
+After=network.target
+
+[Service]
+# 将 /opt/wechat-bot/wx-linux 替换为你的项目实际路径
+ExecStart=/opt/wechat-bot/wx-linux/venv/bin/python -u /opt/wechat-bot/wx-linux/wxhealth.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

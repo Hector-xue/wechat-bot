@@ -1,0 +1,26 @@
+# ===== 依赖与虚拟环境 =====
+wx-linux/venv/
+
+# ===== 二进制/安装包（非源码，不应提交）=====
+wx-linux/wechat-linux.rpm
+wx-linux/extracted/
+wx-linux/rpms/
+
+# ===== 编译产物 =====
+__pycache__/
+*.pyc
+*.so
+wx-linux/memscan
+wx-linux/memscan2
+wx-linux/memscan3
+wx-linux/memscan4
+wx-linux/memscan5
+wx-linux/memscan6
+wx-linux/memscan7
+
+# ===== 本地清理记录（不提交到公开仓库）=====
+PRIVACY_AUDIT.md
+CLEANUP_REPORT.md
+
+# ===== 其它 =====
+.DS_Store
